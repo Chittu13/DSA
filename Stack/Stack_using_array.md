@@ -1,5 +1,5 @@
 ```cpp
-
+// Online C++ compiler to run C++ program online
 #include <iostream>
 using namespace std;
 
@@ -61,16 +61,32 @@ void display()
 
 
 int main() {
-    push(11);
-    push(12);
-    push(13);
-    push(14);
-    push(15);
-    display();
-    pop();
-    pop();
-    pop();
-    display();
-    return 0;
+    
+    int m;
+    int num;
+    int flag=1;
+    while(flag!=0){
+        cout<<"1.Push"<<endl<<"2.Pop"<<endl<<"3.Display"<<endl<<"4.Quit"<<endl;
+        cout<<"Enter the option: ";
+        cin>>m;
+        switch(m){
+            case 1:
+                cout<<"Enter the number: ";
+                cin>>num;
+                push(num);
+                break;
+            case 2:
+                pop();
+                break;
+            case 3:
+                display();
+                break;
+            case 4:
+                flag=0;
+                cout<<"Program Ends :)";
+                break;
+            
+        }
+    }
 }
 ```
