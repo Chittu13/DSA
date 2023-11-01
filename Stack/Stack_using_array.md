@@ -1,5 +1,5 @@
-'''cpp
-// Online C++ compiler to run C++ program online
+```cpp
+
 #include <iostream>
 using namespace std;
 
@@ -73,4 +73,4 @@ int main() {
     display();
     return 0;
 }
-'''
+```
