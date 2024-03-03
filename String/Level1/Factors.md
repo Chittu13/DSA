@@ -1,4 +1,5 @@
-- Imagine you have a number, let's say nn, and you want to find all the smaller numbers that can fit into nn perfectly without leaving any remainder. These smaller numbers are called "factors" of nn. For example, if nn is 10, then its factors are 1, 2, 5, and 10 because:
+# Problem Statement:
+### Imagine you have a number, let's say nn, and you want to find all the smaller numbers that can fit into nn perfectly without leaving any remainder. These smaller numbers are called "factors" of nn. For example, if nn is 10, then its factors are 1, 2, 5, and 10 because:
 
    - 10 divided by 1 leaves no remainder (10/1 = 10)
    - 10 divided by 2 leaves no remainder (10/2 = 5)
